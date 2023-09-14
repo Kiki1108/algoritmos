@@ -34,6 +34,7 @@ def calcula_promedio(asignaturas):
 
 if __name__ == "__main__":
     cantidad_datos = [100*n for n in range(1, 11)]
+    #cantidad_datos = [1, 10, 100, 1000, 10000, 100000]
     tiempos = [0 for i in cantidad_datos]
     for j in range(10):
         for i in range(len(cantidad_datos)):
